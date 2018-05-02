@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/.vscode": true,
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/Content": true,
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/Intermediate": true
+	}
+}

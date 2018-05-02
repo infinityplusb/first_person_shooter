@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FPS Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"HTML5",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"Linux",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Shipping",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPS TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPS",
+				"TVOS",
+				"Test",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Linux",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Debug",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"DebugGame",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Development",
+				"/home/brian/Documents/Programming/games/first_person_shooter/FPS/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/brian/Programs/UnrealEngine"
+			}
+		}
+	]
+}
