@@ -7492,5 +7492,7 @@ SOURCES += \
 	"$$FPSRootPath/Source/FPS/FPSGameMode.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSHUD.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSProjectile.cpp" \
+	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.cpp" \
+	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonGameMode.cpp" \
  
 

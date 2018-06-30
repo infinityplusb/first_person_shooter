@@ -1,7 +1,11 @@
 {
 	"files.exclude": {
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/.idea": true,
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/.kdev4": true,
 		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/.vscode": true,
 		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/Content": true,
-		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/Intermediate": true
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/DerivedDataCache": true,
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/Intermediate": true,
+		"/home/brian/Documents/Programming/games/first_person_shooter/FPS/Saved": true
 	}
 }
