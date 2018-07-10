@@ -2509,6 +2509,8 @@
 /home/brian/Programs/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/BootstrapPackagedGame/Inc/BootstrapPackagedGame 
 /home/brian/Programs/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame 
 /home/brian/Programs/UnrealEngine/Source 
+/home/brian/Programs/UnrealEngine/Source/FPS/Public 
+/home/brian/Programs/UnrealEngine/Source/FPS/Private 
 /home/brian/Programs/UnrealEngine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FPS 
 /home/brian/Programs/UnrealEngine/Source/FPS 
 
