@@ -7493,6 +7493,7 @@ SOURCES += \
 	"$$FPSRootPath/Source/FPS/FPSHUD.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSProjectile.cpp" \
 	"$$FPSRootPath/Source/FPS/Private/ChooseNextWaypoint.cpp" \
+	"$$FPSRootPath/Source/FPS/Private/PatrollingGuard.cpp" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.cpp" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonGameMode.cpp" \
  
