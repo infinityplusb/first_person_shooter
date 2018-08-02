@@ -9681,6 +9681,8 @@ HEADERS += \
 	"$$FPSRootPath/Source/FPS/FPSHUD.h" \
 	"$$FPSRootPath/Source/FPS/FPSProjectile.h" \
 	"$$FPSRootPath/Source/FPS/Public/ChooseNextWaypoint.h" \
+	"$$FPSRootPath/Source/FPS/Public/DeleteMe.h" \
+	"$$FPSRootPath/Source/FPS/Public/PatrolRoute.h" \
 	"$$FPSRootPath/Source/FPS/Public/PatrollingGuard.h" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPerson.h" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.h" \
