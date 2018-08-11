@@ -9676,10 +9676,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public/ShaderComparisonTests.h" \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public/ScreenshotTools.h" \
 	"$$FPSRootPath/Source/FPS/FPS.h" \
-	"$$FPSRootPath/Source/FPS/FPSCharacter.h" \
 	"$$FPSRootPath/Source/FPS/FPSGameMode.h" \
 	"$$FPSRootPath/Source/FPS/FPSHUD.h" \
-	"$$FPSRootPath/Source/FPS/FPSProjectile.h" \
 	"$$FPSRootPath/Source/FPS/Public/ChooseNextWaypoint.h" \
 	"$$FPSRootPath/Source/FPS/Public/DeleteMe.h" \
 	"$$FPSRootPath/Source/FPS/Public/PatrolRoute.h" \
@@ -9687,5 +9685,9 @@ HEADERS += \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPerson.h" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.h" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonGameMode.h" \
+	"$$FPSRootPath/Source/FPS/Player/FirstPersonCharacter.h" \
+	"$$FPSRootPath/Source/FPS/Weapons/BallProjectile.h" \
+	
+	
  
 
