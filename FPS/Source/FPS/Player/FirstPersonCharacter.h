@@ -40,6 +40,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	FVector GunOffset;
 
+	/** Gun muzzle's offset from the characters location */
+	UPROPERTY(EditDefaultsOnly, Category="Setup")
+	TSubclassOf<class ARifle> RifleBlueprint;
+
+private:
+	ARifle* Rifle;
+
 protected:
 
 	/** Resets HMD orientation and position in VR. */
