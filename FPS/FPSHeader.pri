@@ -9678,16 +9678,11 @@ HEADERS += \
 	"$$FPSRootPath/Source/FPS/FPS.h" \
 	"$$FPSRootPath/Source/FPS/FPSGameMode.h" \
 	"$$FPSRootPath/Source/FPS/FPSHUD.h" \
-	"$$FPSRootPath/Source/FPS/Public/ChooseNextWaypoint.h" \
-	"$$FPSRootPath/Source/FPS/Public/DeleteMe.h" \
-	"$$FPSRootPath/Source/FPS/Public/PatrolRoute.h" \
-	"$$FPSRootPath/Source/FPS/Public/PatrollingGuard.h" \
-	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPerson.h" \
-	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.h" \
-	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonGameMode.h" \
+	"$$FPSRootPath/Source/FPS/NPC/ChooseNextWaypoint.h" \
+	"$$FPSRootPath/Source/FPS/NPC/PatrolRoute.h" \
 	"$$FPSRootPath/Source/FPS/Player/FirstPersonCharacter.h" \
+	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.h" \
 	"$$FPSRootPath/Source/FPS/Weapons/BallProjectile.h" \
-	
-	
+	"$$FPSRootPath/Source/FPS/Weapons/Rifle.h" \
  
 

@@ -7490,12 +7490,11 @@ SOURCES += \
 	"$$FPSRootPath/Source/FPS/FPS.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSGameMode.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSHUD.cpp" \
-	"$$FPSRootPath/Source/FPS/Private/ChooseNextWaypoint.cpp" \
-	"$$FPSRootPath/Source/FPS/Private/DeleteMe.cpp" \
-	"$$FPSRootPath/Source/FPS/Private/PatrolRoute.cpp" \
-	"$$FPSRootPath/Source/FPS/Private/PatrollingGuard.cpp" \
+	"$$FPSRootPath/Source/FPS/NPC/ChooseNextWaypoint.cpp" \
+	"$$FPSRootPath/Source/FPS/NPC/PatrolRoute.cpp" \
+	"$$FPSRootPath/Source/FPS/Player/FirstPersonCharacter.cpp" \
 	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonCharacter.cpp" \
-	"$$FPSRootPath/Source/FPS/TP_ThirdPerson/TP_ThirdPersonGameMode.cpp" \
- 	"$$FPSRootPath/Source/FPS/Player/FirstPersonCharacter.cpp" \
 	"$$FPSRootPath/Source/FPS/Weapons/BallProjectile.cpp" \
+	"$$FPSRootPath/Source/FPS/Weapons/Rifle.cpp" \
+ 
 

@@ -4143,7 +4143,6 @@
     <Include Path="/usr/include" />
     <Include Path="/home/brian/Programs/UnrealEngine/Engine/Source" />
     <Include Path="/home/brian/Documents/Programming/games/first_person_shooter/FPS/Source" />
-    <Include Path="/home/brian/Documents/Programming/games/first_person_shooter/FPS/Source/FPS/Public" />
     <Include Path="/home/brian/Documents/Programming/games/first_person_shooter/FPS/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FPS" />
     <Include Path="/home/brian/Documents/Programming/games/first_person_shooter/FPS/Source/FPS" />
     <Include Path="/home/brian/Programs/UnrealEngine/Engine/Source/Runtime/Core/Public" />

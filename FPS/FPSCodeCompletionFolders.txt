@@ -4140,7 +4140,6 @@
 /usr/include
 /home/brian/Programs/UnrealEngine/Engine/Source
 /home/brian/Documents/Programming/games/first_person_shooter/FPS/Source
-/home/brian/Documents/Programming/games/first_person_shooter/FPS/Source/FPS/Public
 /home/brian/Documents/Programming/games/first_person_shooter/FPS/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FPS
 /home/brian/Documents/Programming/games/first_person_shooter/FPS/Source/FPS
 /home/brian/Programs/UnrealEngine/Engine/Source/Runtime/Core/Public

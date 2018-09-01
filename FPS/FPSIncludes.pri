@@ -2509,7 +2509,6 @@ INCLUDEPATH += \
 	/home/brian/Programs/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/BootstrapPackagedGame/Inc/BootstrapPackagedGame \
 	/home/brian/Programs/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame \
 	Source \
-	Source/FPS/Public \
 	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FPS \
 	Source/FPS \
 	/usr/include \

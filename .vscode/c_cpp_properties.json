@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}/**",
+                "/home/brian/Programs/UnrealEngine/**",
+                "/home/brian/Documents/Programming/games/first_person_shooter/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++-5.0",
+            "browse": {
+                "path": [
+                    "/home/brian/Programs/UnrealEngine/Engine/Source"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
