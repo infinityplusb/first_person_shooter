@@ -56,7 +56,10 @@ void AFirstPersonCharacter::BeginPlay()
 	}
 	Rifle = GetWorld()->SpawnActor<ARifle>(RifleBlueprint);
 	Rifle->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	Rifle->AnimInstance = Mesh1P->GetAnimInstance();
 
+	// Bind fire event
+	InputComponent->BindAction("Fire", IE_Pressed, Rifle, &ARifle::OnFire);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -72,7 +75,7 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-//	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFirstPersonCharacter::OnFire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, Rifle, &ARifle::OnFire);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -105,7 +108,7 @@ void AFirstPersonCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, cons
 	}
 	if ((FingerIndex == TouchItem.FingerIndex) && (TouchItem.bMoved == false))
 	{
-		// OnFire();
+		//OnFire();
 	}
 	TouchItem.bIsPressed = true;
 	TouchItem.FingerIndex = FingerIndex;
